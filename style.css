@@ -1,0 +1,279 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #28834e;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 800;
+  float: left;
+  font-family: "Courier New", Courier, monospace;
+  color: #28834e;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 70px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: rgb(148, 235, 177);
+  z-index: 1;
+  border: 1px solid #28834e;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.home-bg {
+  background-color: rgb(114, 233, 144);
+}
+
+section {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #28834e;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #28834e;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-biru {
+  background: rgb(41, 133, 29);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: rgb(123, 255, 0);
+  text-decoration: none;
+}
+
+a.tbl-merah {
+  background: rgb(123, 255, 0);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 15px 20px 15px 20px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-merah:hover {
+  background: rgb(41, 133, 29);
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.rounded-circle {
+  border-radius: 100%;
+  border: 10px solid #28834e;
+  margin: 10px;
+}
+
+.desc {
+  margin-left: 50px;
+}
+
+.contoh {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "MV Boli";
+  color: #28834e;
+  margin-left: 50px;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.colo {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 3;
+}
+
+.figure {
+  font-family: "Bahnschrift";
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  text-indent: 0;
+}
+
+#contact {
+  background: rgb(148, 235, 177);
+  padding: 50px 0px 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #28834e;
+  width: 100%;
+  line-height: 50px;
+}
+
+h4 {
+  font-family: "Bahnschrift";
+  font-style: inherit;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgba(26, 48, 35, 0.911);
+  width: 100%;
+  line-height: 50px;
+}
+
+h4 a {
+  color: rgba(26, 48, 35, 0.911);
+  width: 100%;
+}
+
+.waifu {
+  width: 20%;
+  border-radius: 20%;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .memnu li {
+    display: block;
+    float: none;
+  }
+
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+    width: 100%;
+  }
+
+  .home-bg {
+    margin: auto;
+    line-height: 60px;
+  }
+
+  .rounded-circle {
+    width: 80%;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  body {
+    width: 100%;
+    margin: auto;
+  }
+}
